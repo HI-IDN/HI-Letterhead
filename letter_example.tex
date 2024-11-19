@@ -1,0 +1,52 @@
+\documentclass[11pt]{hi-letter}
+\usepackage{lipsum} % For generating placeholder text
+
+% Sender's information
+\name{Jane Doe} % Used in the closing paragraph
+\frominfo{Dr. Jane Doe
+Associate Professor \\
+Dept. of Physics \\
+Tel. +354 524 4000 \\
+name@hi.is}
+
+% Recipient's information
+\toinfo{Admissions Office \\
+Institute of Advanced Research \\
+123 Academic Lane \\
+City, State 12345, USA}
+
+% Subject
+\subject{Support Letter for Research Collaboration Proposal}
+
+% Add a reference line
+\refline{2024/12345678}
+
+% Add deadline
+\deadline{December 15, 2024}
+
+% Date
+\date{\today}
+
+% Document content
+\begin{document}
+
+\begin{letter}
+
+\opening{Dear Members of the Admissions Committee,}
+
+I am writing to express my support for the collaborative research proposal submitted by your institution. 
+
+\lipsum[1] % Generates placeholder text for the first paragraph.
+
+\lipsum[2] % Generates placeholder text for the second paragraph.
+
+\closing{Sincerely,}
+
+% Add enclosures, cc, and bcc
+\encl{hi-letter.cls, hi-logo.eps, ui-logo.eps}
+\cc{Dr. John Smith, Dept. of Chemistry}
+\bcc{Office of Research Oversight}
+
+\end{letter}
+
+\end{document}
